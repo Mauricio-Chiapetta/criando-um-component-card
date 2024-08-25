@@ -1,17 +1,19 @@
 import posterImage from "../assets/starwarsPoster.jpg";
 import posterStyles from "../App.module.css";
-export function Poster() {
+
+
+export function Poster(props) {
   return (
     <>
       <div className={posterStyles.poster}>
         <img
           className={posterStyles.posterImg}
-          src={posterImage}
+          src={props.postersrc}
           alt="poster"
         />
 
         <div className={posterStyles.texto}>
-          <h2 className={posterStyles.h2}>Pôster: Star Wars (1977)</h2>
+          <h2 className={posterStyles.h2}>{props.title}</h2>
 
           <p className={posterStyles.p}>
             Um poster decorativo épico do filme Star Wars, com moldura de MDF e
