@@ -1,5 +1,6 @@
 import posterImage from "../assets/starwarsPoster.jpg";
 import posterStyles from "../App.module.css";
+import { Button } from '../components/button';
 
 
 export function Poster({title,postersrc}) {
@@ -22,8 +23,8 @@ export function Poster({title,postersrc}) {
             a magia de Star Wars para qualquer lugar que você decidir pendurar,
             Não perca a chance de adicionar essa linda memória ao seu acervo.
           </p>
-
-          <button className={posterStyles.button}>Comprar agora</button>
+          <Button/>
+          
         </div>
       </div>
     </>
