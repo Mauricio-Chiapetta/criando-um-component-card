@@ -8,7 +8,7 @@
   align-self: center;
   height: 400px;
  margin-bottom: 10px;
- margin: 4rem auto;
+ margin: 7rem auto;
 }
 
 .posterImg {
@@ -41,8 +41,10 @@
 }
 .button:hover {
   cursor: pointer;
+  background-color: black;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.603);
   transition: 0.3s;
+  margin-left: .3rem;
 }
 .p {
   line-height: 150%;
